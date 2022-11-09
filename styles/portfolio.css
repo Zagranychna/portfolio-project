@@ -24,6 +24,11 @@ h2 {
   font-size: 64px;
   font-family: var(--heading-font-family);
 }
+.about h3 {
+  font-family: var(--default-font-family);
+  font-size: 18px;
+  font-weight: bold;
+}
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
@@ -41,6 +46,16 @@ h2 {
   line-height: 1.5;
   color: rgba(39, 33, 66, 1);
 }
+.about {
+  text-align: center;
+  padding: 20px 20px;
+  margin-bottom: 50px;
+}
+.about img {
+  border-radius: 15px;
+  margin-bottom: 50px;
+}
+
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
@@ -51,6 +66,7 @@ h2 {
   font-family: var(--default-font-family);
   font-style: normal;
   padding: 15px 30px;
+  margin-bottom: 60px;
 }
 .btn-branding-outline {
   border-radius: 4px;
@@ -113,6 +129,7 @@ h2 {
 }
 .logo {
   max-width: 130px;
+  margin-left: 40px;
 }
 
 @media (max-width: 960px) {
