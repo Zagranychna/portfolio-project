@@ -72,7 +72,6 @@ h2 {
   font-family: var(--default-font-family);
   font-weight: normal;
   padding: 15px 30px;
-  margin-left: 80px;
 }
 .project-description {
   padding: 60px 60px;
@@ -112,6 +111,9 @@ h2 {
   height: 40px;
   font-size: 18px;
 }
+.logo {
+  max-width: 130px;
+}
 
 @media (max-width: 960px) {
   .project-description {
@@ -123,5 +125,8 @@ h2 {
   }
   .hero {
     padding: 80px 20px;
+  }
+  .emeil-link {
+    font-size: 18px;
   }
 }
