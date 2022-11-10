@@ -66,7 +66,6 @@ h2 {
   font-family: var(--default-font-family);
   font-style: normal;
   padding: 15px 30px;
-  margin-bottom: 60px;
 }
 .btn-branding-outline {
   border-radius: 4px;
@@ -130,6 +129,18 @@ h2 {
 .logo {
   max-width: 130px;
   margin-left: 40px;
+}
+.works h3 {
+  font-family: var(--default-font-family);
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+.works p {
+  font-family: var(--default-font-family);
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
 }
 
 @media (max-width: 960px) {
