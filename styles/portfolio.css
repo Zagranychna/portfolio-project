@@ -24,11 +24,6 @@ h2 {
   font-size: 64px;
   font-family: var(--heading-font-family);
 }
-.about h3 {
-  font-family: var(--default-font-family);
-  font-size: 18px;
-  font-weight: bold;
-}
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
@@ -46,11 +41,22 @@ h2 {
   line-height: 1.5;
   color: rgba(39, 33, 66, 1);
 }
-.about {
-  text-align: center;
-  padding: 20px 20px;
-  margin-bottom: 50px;
+
+.about-content {
+  margin: 35px;
 }
+.about h1 {
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 1.2;
+}
+.about h2 {
+  font-family: var(--default-font-family);
+  font-weight: bold;
+  font-size: 18px;
+}
+
 .about img {
   border-radius: 15px;
   margin-bottom: 50px;
@@ -153,6 +159,17 @@ h2 {
   }
   .hero {
     padding: 80px 20px;
+  }
+  .about h1 {
+    font-size: 35px;
+  }
+  .about h2 {
+    font-size: 12px;
+  }
+  .about {
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
   }
   .emeil-link {
     font-size: 18px;
